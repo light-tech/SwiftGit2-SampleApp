@@ -18,7 +18,5 @@ xcuserdata/
 
 # Binary frameworks libgit2, libpcre, libssh2, openssl
 *.xcframework/
-*.xcframework.zip
+*.zip
 
-# SwiftGit2 source code for Swift bindings to libgit2
-SwiftGit2/

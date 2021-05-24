@@ -12,23 +12,21 @@
 		B716317C2600569A00E2B851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716317B2600569A00E2B851 /* Assets.xcassets */; };
 		B716317F2600569A00E2B851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716317E2600569A00E2B851 /* Preview Assets.xcassets */; };
 		B72075EE2600B35100FCD911 /* libgit2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72075ED2600B35100FCD911 /* libgit2.xcframework */; };
-		B74ACCC426560EC3003C6579 /* OID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCB726560EC2003C6579 /* OID.swift */; };
-		B74ACCC526560EC3003C6579 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCB826560EC2003C6579 /* Repository.swift */; };
-		B74ACCC726560EC3003C6579 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCBA26560EC2003C6579 /* Credentials.swift */; };
-		B74ACCC826560EC3003C6579 /* Libgit2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCBB26560EC3003C6579 /* Libgit2.swift */; };
-		B74ACCC926560EC3003C6579 /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCBC26560EC3003C6579 /* References.swift */; };
-		B74ACCCA26560EC3003C6579 /* Remotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCBD26560EC3003C6579 /* Remotes.swift */; };
-		B74ACCCB26560EC3003C6579 /* CommitIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCBE26560EC3003C6579 /* CommitIterator.swift */; };
-		B74ACCCC26560EC3003C6579 /* CheckoutStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCBF26560EC3003C6579 /* CheckoutStrategy.swift */; };
-		B74ACCCD26560EC3003C6579 /* Diffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCC026560EC3003C6579 /* Diffs.swift */; };
-		B74ACCCE26560EC3003C6579 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCC126560EC3003C6579 /* Objects.swift */; };
-		B74ACCCF26560EC3003C6579 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCC226560EC3003C6579 /* Errors.swift */; };
-		B74ACCD026560EC3003C6579 /* Pointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ACCC326560EC3003C6579 /* Pointers.swift */; };
+		B72405A9265BF611004DB7C4 /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059B265BF610004DB7C4 /* References.swift */; };
+		B72405AB265BF611004DB7C4 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059D265BF610004DB7C4 /* Errors.swift */; };
+		B72405AC265BF611004DB7C4 /* CheckoutStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059E265BF610004DB7C4 /* CheckoutStrategy.swift */; };
+		B72405AD265BF611004DB7C4 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059F265BF610004DB7C4 /* Credentials.swift */; };
+		B72405AE265BF611004DB7C4 /* Pointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A0265BF610004DB7C4 /* Pointers.swift */; };
+		B72405AF265BF611004DB7C4 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A1265BF610004DB7C4 /* Objects.swift */; };
+		B72405B0265BF611004DB7C4 /* CommitIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A2265BF610004DB7C4 /* CommitIterator.swift */; };
+		B72405B1265BF611004DB7C4 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A3265BF610004DB7C4 /* Repository.swift */; };
+		B72405B2265BF611004DB7C4 /* StatusOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A4265BF610004DB7C4 /* StatusOptions.swift */; };
+		B72405B3265BF611004DB7C4 /* Diffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A5265BF611004DB7C4 /* Diffs.swift */; };
+		B72405B4265BF611004DB7C4 /* Libgit2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A6265BF611004DB7C4 /* Libgit2.swift */; };
+		B72405B5265BF611004DB7C4 /* OID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A7265BF611004DB7C4 /* OID.swift */; };
+		B72405B6265BF611004DB7C4 /* Remotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A8265BF611004DB7C4 /* Remotes.swift */; };
 		B74ACCD426561305003C6579 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ACCD3265612FC003C6579 /* libiconv.tbd */; };
 		B74ACCD6265613F2003C6579 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ACCD5265613E7003C6579 /* libz.tbd */; };
-		B7EFE783265A447400C91B0A /* libpcre.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EFE782265A447300C91B0A /* libpcre.xcframework */; };
-		B7EFE787265A448900C91B0A /* libssh2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EFE786265A448900C91B0A /* libssh2.xcframework */; };
-		B7EFE78A265A449A00C91B0A /* openssl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EFE789265A449A00C91B0A /* openssl.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,23 +38,21 @@
 		B71631802600569A00E2B851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B71E92372600582B00AF2F49 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
 		B72075ED2600B35100FCD911 /* libgit2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libgit2.xcframework; sourceTree = "<group>"; };
-		B74ACCB726560EC2003C6579 /* OID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OID.swift; sourceTree = "<group>"; };
-		B74ACCB826560EC2003C6579 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		B74ACCBA26560EC2003C6579 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
-		B74ACCBB26560EC3003C6579 /* Libgit2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Libgit2.swift; sourceTree = "<group>"; };
-		B74ACCBC26560EC3003C6579 /* References.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = References.swift; sourceTree = "<group>"; };
-		B74ACCBD26560EC3003C6579 /* Remotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remotes.swift; sourceTree = "<group>"; };
-		B74ACCBE26560EC3003C6579 /* CommitIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitIterator.swift; sourceTree = "<group>"; };
-		B74ACCBF26560EC3003C6579 /* CheckoutStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutStrategy.swift; sourceTree = "<group>"; };
-		B74ACCC026560EC3003C6579 /* Diffs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diffs.swift; sourceTree = "<group>"; };
-		B74ACCC126560EC3003C6579 /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
-		B74ACCC226560EC3003C6579 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		B74ACCC326560EC3003C6579 /* Pointers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pointers.swift; sourceTree = "<group>"; };
+		B724059B265BF610004DB7C4 /* References.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = References.swift; path = SwiftGit2/SwiftGit2/References.swift; sourceTree = "<group>"; };
+		B724059D265BF610004DB7C4 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = SwiftGit2/SwiftGit2/Errors.swift; sourceTree = "<group>"; };
+		B724059E265BF610004DB7C4 /* CheckoutStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutStrategy.swift; path = SwiftGit2/SwiftGit2/CheckoutStrategy.swift; sourceTree = "<group>"; };
+		B724059F265BF610004DB7C4 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = SwiftGit2/SwiftGit2/Credentials.swift; sourceTree = "<group>"; };
+		B72405A0265BF610004DB7C4 /* Pointers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pointers.swift; path = SwiftGit2/SwiftGit2/Pointers.swift; sourceTree = "<group>"; };
+		B72405A1265BF610004DB7C4 /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Objects.swift; path = SwiftGit2/SwiftGit2/Objects.swift; sourceTree = "<group>"; };
+		B72405A2265BF610004DB7C4 /* CommitIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommitIterator.swift; path = SwiftGit2/SwiftGit2/CommitIterator.swift; sourceTree = "<group>"; };
+		B72405A3265BF610004DB7C4 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = SwiftGit2/SwiftGit2/Repository.swift; sourceTree = "<group>"; };
+		B72405A4265BF610004DB7C4 /* StatusOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusOptions.swift; path = SwiftGit2/SwiftGit2/StatusOptions.swift; sourceTree = "<group>"; };
+		B72405A5265BF611004DB7C4 /* Diffs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Diffs.swift; path = SwiftGit2/SwiftGit2/Diffs.swift; sourceTree = "<group>"; };
+		B72405A6265BF611004DB7C4 /* Libgit2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Libgit2.swift; path = SwiftGit2/SwiftGit2/Libgit2.swift; sourceTree = "<group>"; };
+		B72405A7265BF611004DB7C4 /* OID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OID.swift; path = SwiftGit2/SwiftGit2/OID.swift; sourceTree = "<group>"; };
+		B72405A8265BF611004DB7C4 /* Remotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Remotes.swift; path = SwiftGit2/SwiftGit2/Remotes.swift; sourceTree = "<group>"; };
 		B74ACCD3265612FC003C6579 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
 		B74ACCD5265613E7003C6579 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
-		B7EFE782265A447300C91B0A /* libpcre.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libpcre.xcframework; sourceTree = "<group>"; };
-		B7EFE786265A448900C91B0A /* libssh2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libssh2.xcframework; sourceTree = "<group>"; };
-		B7EFE789265A449A00C91B0A /* openssl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = openssl.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +62,7 @@
 			files = (
 				B74ACCD426561305003C6579 /* libiconv.tbd in Frameworks */,
 				B74ACCD6265613F2003C6579 /* libz.tbd in Frameworks */,
-				B7EFE78A265A449A00C91B0A /* openssl.xcframework in Frameworks */,
-				B7EFE787265A448900C91B0A /* libssh2.xcframework in Frameworks */,
 				B72075EE2600B35100FCD911 /* libgit2.xcframework in Frameworks */,
-				B7EFE783265A447400C91B0A /* libpcre.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +72,8 @@
 		B716316B2600568100E2B851 = {
 			isa = PBXGroup;
 			children = (
+				B72405B7265BF62B004DB7C4 /* SwiftGit2 */,
 				B71631762600568100E2B851 /* SampleApp */,
-				B74ACCB626560E52003C6579 /* SwiftGit2 */,
 				B71631752600568100E2B851 /* Products */,
 				B71E923826005A9F00AF2F49 /* Frameworks */,
 			);
@@ -118,9 +111,6 @@
 		B71E923826005A9F00AF2F49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B7EFE789265A449A00C91B0A /* openssl.xcframework */,
-				B7EFE786265A448900C91B0A /* libssh2.xcframework */,
-				B7EFE782265A447300C91B0A /* libpcre.xcframework */,
 				B72075ED2600B35100FCD911 /* libgit2.xcframework */,
 				B74ACCD5265613E7003C6579 /* libz.tbd */,
 				B74ACCD3265612FC003C6579 /* libiconv.tbd */,
@@ -128,23 +118,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B74ACCB626560E52003C6579 /* SwiftGit2 */ = {
+		B72405B7265BF62B004DB7C4 /* SwiftGit2 */ = {
 			isa = PBXGroup;
 			children = (
-				B74ACCBF26560EC3003C6579 /* CheckoutStrategy.swift */,
-				B74ACCBE26560EC3003C6579 /* CommitIterator.swift */,
-				B74ACCBA26560EC2003C6579 /* Credentials.swift */,
-				B74ACCC026560EC3003C6579 /* Diffs.swift */,
-				B74ACCC226560EC3003C6579 /* Errors.swift */,
-				B74ACCBB26560EC3003C6579 /* Libgit2.swift */,
-				B74ACCC126560EC3003C6579 /* Objects.swift */,
-				B74ACCB726560EC2003C6579 /* OID.swift */,
-				B74ACCC326560EC3003C6579 /* Pointers.swift */,
-				B74ACCBC26560EC3003C6579 /* References.swift */,
-				B74ACCBD26560EC3003C6579 /* Remotes.swift */,
-				B74ACCB826560EC2003C6579 /* Repository.swift */,
+				B724059E265BF610004DB7C4 /* CheckoutStrategy.swift */,
+				B72405A2265BF610004DB7C4 /* CommitIterator.swift */,
+				B724059F265BF610004DB7C4 /* Credentials.swift */,
+				B72405A5265BF611004DB7C4 /* Diffs.swift */,
+				B724059D265BF610004DB7C4 /* Errors.swift */,
+				B72405A6265BF611004DB7C4 /* Libgit2.swift */,
+				B72405A1265BF610004DB7C4 /* Objects.swift */,
+				B72405A7265BF611004DB7C4 /* OID.swift */,
+				B72405A0265BF610004DB7C4 /* Pointers.swift */,
+				B724059B265BF610004DB7C4 /* References.swift */,
+				B72405A8265BF611004DB7C4 /* Remotes.swift */,
+				B72405A3265BF610004DB7C4 /* Repository.swift */,
+				B72405A4265BF610004DB7C4 /* StatusOptions.swift */,
 			);
-			path = SwiftGit2;
+			name = SwiftGit2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,20 +211,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74ACCC926560EC3003C6579 /* References.swift in Sources */,
-				B74ACCC426560EC3003C6579 /* OID.swift in Sources */,
-				B74ACCCC26560EC3003C6579 /* CheckoutStrategy.swift in Sources */,
+				B72405AE265BF611004DB7C4 /* Pointers.swift in Sources */,
+				B72405AD265BF611004DB7C4 /* Credentials.swift in Sources */,
+				B72405B4265BF611004DB7C4 /* Libgit2.swift in Sources */,
+				B72405B3265BF611004DB7C4 /* Diffs.swift in Sources */,
+				B72405AF265BF611004DB7C4 /* Objects.swift in Sources */,
+				B72405AB265BF611004DB7C4 /* Errors.swift in Sources */,
+				B72405B0265BF611004DB7C4 /* CommitIterator.swift in Sources */,
+				B72405A9265BF611004DB7C4 /* References.swift in Sources */,
+				B72405AC265BF611004DB7C4 /* CheckoutStrategy.swift in Sources */,
+				B72405B1265BF611004DB7C4 /* Repository.swift in Sources */,
+				B72405B5265BF611004DB7C4 /* OID.swift in Sources */,
+				B72405B6265BF611004DB7C4 /* Remotes.swift in Sources */,
 				B716317A2600568100E2B851 /* ContentView.swift in Sources */,
-				B74ACCC726560EC3003C6579 /* Credentials.swift in Sources */,
-				B74ACCCB26560EC3003C6579 /* CommitIterator.swift in Sources */,
-				B74ACCCD26560EC3003C6579 /* Diffs.swift in Sources */,
-				B74ACCD026560EC3003C6579 /* Pointers.swift in Sources */,
-				B74ACCCF26560EC3003C6579 /* Errors.swift in Sources */,
 				B71631782600568100E2B851 /* SampleApp.swift in Sources */,
-				B74ACCC526560EC3003C6579 /* Repository.swift in Sources */,
-				B74ACCC826560EC3003C6579 /* Libgit2.swift in Sources */,
-				B74ACCCE26560EC3003C6579 /* Objects.swift in Sources */,
-				B74ACCCA26560EC3003C6579 /* Remotes.swift in Sources */,
+				B72405B2265BF611004DB7C4 /* StatusOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
