@@ -3,9 +3,11 @@ LibGit2-SwiftGit2 Sample App
 
 Before building, run
 ```shell
-./setup.sh
+./fetch_xcframework.sh
 ```
-to download our [prebuilt frameworks](https://github.com/light-tech/LibGit2-On-iOS/releases) and the SwiftGit2 source code. Also, please correct the hard-coded paths
+to download our [prebuilt libgit2 xcframework](https://github.com/light-tech/LibGit2-On-iOS/releases).
+
+Also, please correct the hard-coded paths
 ```swift
 struct ContentView: View {
     let localRepoLocation = "file:///Volumes/Data/Temp/BigMac"
