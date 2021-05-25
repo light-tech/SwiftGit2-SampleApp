@@ -11,7 +11,6 @@
 		B716317A2600568100E2B851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71631792600568100E2B851 /* ContentView.swift */; };
 		B716317C2600569A00E2B851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716317B2600569A00E2B851 /* Assets.xcassets */; };
 		B716317F2600569A00E2B851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716317E2600569A00E2B851 /* Preview Assets.xcassets */; };
-		B72075EE2600B35100FCD911 /* libgit2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72075ED2600B35100FCD911 /* libgit2.xcframework */; };
 		B72405A9265BF611004DB7C4 /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059B265BF610004DB7C4 /* References.swift */; };
 		B72405AB265BF611004DB7C4 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059D265BF610004DB7C4 /* Errors.swift */; };
 		B72405AC265BF611004DB7C4 /* CheckoutStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059E265BF610004DB7C4 /* CheckoutStrategy.swift */; };
@@ -27,6 +26,7 @@
 		B72405B6265BF611004DB7C4 /* Remotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A8265BF611004DB7C4 /* Remotes.swift */; };
 		B74ACCD426561305003C6579 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ACCD3265612FC003C6579 /* libiconv.tbd */; };
 		B74ACCD6265613F2003C6579 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ACCD5265613E7003C6579 /* libz.tbd */; };
+		B7C15296265C9B7800CDCA15 /* Clibgit2 in Frameworks */ = {isa = PBXBuildFile; productRef = B7C15295265C9B7800CDCA15 /* Clibgit2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,6 @@
 		B716317E2600569A00E2B851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B71631802600569A00E2B851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B71E92372600582B00AF2F49 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
-		B72075ED2600B35100FCD911 /* libgit2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libgit2.xcframework; sourceTree = "<group>"; };
 		B724059B265BF610004DB7C4 /* References.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = References.swift; path = SwiftGit2/SwiftGit2/References.swift; sourceTree = "<group>"; };
 		B724059D265BF610004DB7C4 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = SwiftGit2/SwiftGit2/Errors.swift; sourceTree = "<group>"; };
 		B724059E265BF610004DB7C4 /* CheckoutStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutStrategy.swift; path = SwiftGit2/SwiftGit2/CheckoutStrategy.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		B72405A8265BF611004DB7C4 /* Remotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Remotes.swift; path = SwiftGit2/SwiftGit2/Remotes.swift; sourceTree = "<group>"; };
 		B74ACCD3265612FC003C6579 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
 		B74ACCD5265613E7003C6579 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		B7C15294265C99FD00CDCA15 /* Clibgit2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Clibgit2; path = ./Clibgit2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C15296265C9B7800CDCA15 /* Clibgit2 in Frameworks */,
 				B74ACCD426561305003C6579 /* libiconv.tbd in Frameworks */,
 				B74ACCD6265613F2003C6579 /* libz.tbd in Frameworks */,
-				B72075EE2600B35100FCD911 /* libgit2.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +72,7 @@
 		B716316B2600568100E2B851 = {
 			isa = PBXGroup;
 			children = (
+				B7C15294265C99FD00CDCA15 /* Clibgit2 */,
 				B72405B7265BF62B004DB7C4 /* SwiftGit2 */,
 				B71631762600568100E2B851 /* SampleApp */,
 				B71631752600568100E2B851 /* Products */,
@@ -111,7 +112,6 @@
 		B71E923826005A9F00AF2F49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B72075ED2600B35100FCD911 /* libgit2.xcframework */,
 				B74ACCD5265613E7003C6579 /* libz.tbd */,
 				B74ACCD3265612FC003C6579 /* libiconv.tbd */,
 			);
@@ -155,6 +155,7 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
+				B7C15295265C9B7800CDCA15 /* Clibgit2 */,
 			);
 			productName = SampleApp;
 			productReference = B71631742600568100E2B851 /* SampleApp.app */;
@@ -426,6 +427,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7C15295265C9B7800CDCA15 /* Clibgit2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Clibgit2;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B716316C2600568100E2B851 /* Project object */;
 }
