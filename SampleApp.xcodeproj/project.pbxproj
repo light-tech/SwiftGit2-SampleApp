@@ -11,22 +11,9 @@
 		B716317A2600568100E2B851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71631792600568100E2B851 /* ContentView.swift */; };
 		B716317C2600569A00E2B851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716317B2600569A00E2B851 /* Assets.xcassets */; };
 		B716317F2600569A00E2B851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716317E2600569A00E2B851 /* Preview Assets.xcassets */; };
-		B72405A9265BF611004DB7C4 /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059B265BF610004DB7C4 /* References.swift */; };
-		B72405AB265BF611004DB7C4 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059D265BF610004DB7C4 /* Errors.swift */; };
-		B72405AC265BF611004DB7C4 /* CheckoutStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059E265BF610004DB7C4 /* CheckoutStrategy.swift */; };
-		B72405AD265BF611004DB7C4 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724059F265BF610004DB7C4 /* Credentials.swift */; };
-		B72405AE265BF611004DB7C4 /* Pointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A0265BF610004DB7C4 /* Pointers.swift */; };
-		B72405AF265BF611004DB7C4 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A1265BF610004DB7C4 /* Objects.swift */; };
-		B72405B0265BF611004DB7C4 /* CommitIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A2265BF610004DB7C4 /* CommitIterator.swift */; };
-		B72405B1265BF611004DB7C4 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A3265BF610004DB7C4 /* Repository.swift */; };
-		B72405B2265BF611004DB7C4 /* StatusOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A4265BF610004DB7C4 /* StatusOptions.swift */; };
-		B72405B3265BF611004DB7C4 /* Diffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A5265BF611004DB7C4 /* Diffs.swift */; };
-		B72405B4265BF611004DB7C4 /* Libgit2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A6265BF611004DB7C4 /* Libgit2.swift */; };
-		B72405B5265BF611004DB7C4 /* OID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A7265BF611004DB7C4 /* OID.swift */; };
-		B72405B6265BF611004DB7C4 /* Remotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72405A8265BF611004DB7C4 /* Remotes.swift */; };
 		B74ACCD426561305003C6579 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ACCD3265612FC003C6579 /* libiconv.tbd */; };
 		B74ACCD6265613F2003C6579 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ACCD5265613E7003C6579 /* libz.tbd */; };
-		B7C15296265C9B7800CDCA15 /* Clibgit2 in Frameworks */ = {isa = PBXBuildFile; productRef = B7C15295265C9B7800CDCA15 /* Clibgit2 */; };
+		B7995C79265D588C00F455D6 /* SwiftGit2 in Frameworks */ = {isa = PBXBuildFile; productRef = B7995C78265D588C00F455D6 /* SwiftGit2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,22 +24,9 @@
 		B716317E2600569A00E2B851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B71631802600569A00E2B851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B71E92372600582B00AF2F49 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
-		B724059B265BF610004DB7C4 /* References.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = References.swift; path = SwiftGit2/SwiftGit2/References.swift; sourceTree = "<group>"; };
-		B724059D265BF610004DB7C4 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = SwiftGit2/SwiftGit2/Errors.swift; sourceTree = "<group>"; };
-		B724059E265BF610004DB7C4 /* CheckoutStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutStrategy.swift; path = SwiftGit2/SwiftGit2/CheckoutStrategy.swift; sourceTree = "<group>"; };
-		B724059F265BF610004DB7C4 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = SwiftGit2/SwiftGit2/Credentials.swift; sourceTree = "<group>"; };
-		B72405A0265BF610004DB7C4 /* Pointers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pointers.swift; path = SwiftGit2/SwiftGit2/Pointers.swift; sourceTree = "<group>"; };
-		B72405A1265BF610004DB7C4 /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Objects.swift; path = SwiftGit2/SwiftGit2/Objects.swift; sourceTree = "<group>"; };
-		B72405A2265BF610004DB7C4 /* CommitIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommitIterator.swift; path = SwiftGit2/SwiftGit2/CommitIterator.swift; sourceTree = "<group>"; };
-		B72405A3265BF610004DB7C4 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = SwiftGit2/SwiftGit2/Repository.swift; sourceTree = "<group>"; };
-		B72405A4265BF610004DB7C4 /* StatusOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusOptions.swift; path = SwiftGit2/SwiftGit2/StatusOptions.swift; sourceTree = "<group>"; };
-		B72405A5265BF611004DB7C4 /* Diffs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Diffs.swift; path = SwiftGit2/SwiftGit2/Diffs.swift; sourceTree = "<group>"; };
-		B72405A6265BF611004DB7C4 /* Libgit2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Libgit2.swift; path = SwiftGit2/SwiftGit2/Libgit2.swift; sourceTree = "<group>"; };
-		B72405A7265BF611004DB7C4 /* OID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OID.swift; path = SwiftGit2/SwiftGit2/OID.swift; sourceTree = "<group>"; };
-		B72405A8265BF611004DB7C4 /* Remotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Remotes.swift; path = SwiftGit2/SwiftGit2/Remotes.swift; sourceTree = "<group>"; };
 		B74ACCD3265612FC003C6579 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
 		B74ACCD5265613E7003C6579 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
-		B7C15294265C99FD00CDCA15 /* Clibgit2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Clibgit2; path = ./Clibgit2; sourceTree = "<group>"; };
+		B7995C77265D579F00F455D6 /* SwiftGit2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftGit2; path = ./SwiftGit2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +34,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C15296265C9B7800CDCA15 /* Clibgit2 in Frameworks */,
 				B74ACCD426561305003C6579 /* libiconv.tbd in Frameworks */,
 				B74ACCD6265613F2003C6579 /* libz.tbd in Frameworks */,
+				B7995C79265D588C00F455D6 /* SwiftGit2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +46,7 @@
 		B716316B2600568100E2B851 = {
 			isa = PBXGroup;
 			children = (
-				B7C15294265C99FD00CDCA15 /* Clibgit2 */,
-				B72405B7265BF62B004DB7C4 /* SwiftGit2 */,
+				B7995C77265D579F00F455D6 /* SwiftGit2 */,
 				B71631762600568100E2B851 /* SampleApp */,
 				B71631752600568100E2B851 /* Products */,
 				B71E923826005A9F00AF2F49 /* Frameworks */,
@@ -118,26 +91,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B72405B7265BF62B004DB7C4 /* SwiftGit2 */ = {
-			isa = PBXGroup;
-			children = (
-				B724059E265BF610004DB7C4 /* CheckoutStrategy.swift */,
-				B72405A2265BF610004DB7C4 /* CommitIterator.swift */,
-				B724059F265BF610004DB7C4 /* Credentials.swift */,
-				B72405A5265BF611004DB7C4 /* Diffs.swift */,
-				B724059D265BF610004DB7C4 /* Errors.swift */,
-				B72405A6265BF611004DB7C4 /* Libgit2.swift */,
-				B72405A1265BF610004DB7C4 /* Objects.swift */,
-				B72405A7265BF611004DB7C4 /* OID.swift */,
-				B72405A0265BF610004DB7C4 /* Pointers.swift */,
-				B724059B265BF610004DB7C4 /* References.swift */,
-				B72405A8265BF611004DB7C4 /* Remotes.swift */,
-				B72405A3265BF610004DB7C4 /* Repository.swift */,
-				B72405A4265BF610004DB7C4 /* StatusOptions.swift */,
-			);
-			name = SwiftGit2;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,7 +108,7 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
-				B7C15295265C9B7800CDCA15 /* Clibgit2 */,
+				B7995C78265D588C00F455D6 /* SwiftGit2 */,
 			);
 			productName = SampleApp;
 			productReference = B71631742600568100E2B851 /* SampleApp.app */;
@@ -212,21 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B72405AE265BF611004DB7C4 /* Pointers.swift in Sources */,
-				B72405AD265BF611004DB7C4 /* Credentials.swift in Sources */,
-				B72405B4265BF611004DB7C4 /* Libgit2.swift in Sources */,
-				B72405B3265BF611004DB7C4 /* Diffs.swift in Sources */,
-				B72405AF265BF611004DB7C4 /* Objects.swift in Sources */,
-				B72405AB265BF611004DB7C4 /* Errors.swift in Sources */,
-				B72405B0265BF611004DB7C4 /* CommitIterator.swift in Sources */,
-				B72405A9265BF611004DB7C4 /* References.swift in Sources */,
-				B72405AC265BF611004DB7C4 /* CheckoutStrategy.swift in Sources */,
-				B72405B1265BF611004DB7C4 /* Repository.swift in Sources */,
-				B72405B5265BF611004DB7C4 /* OID.swift in Sources */,
-				B72405B6265BF611004DB7C4 /* Remotes.swift in Sources */,
 				B716317A2600568100E2B851 /* ContentView.swift in Sources */,
 				B71631782600568100E2B851 /* SampleApp.swift in Sources */,
-				B72405B2265BF611004DB7C4 /* StatusOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,9 +369,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B7C15295265C9B7800CDCA15 /* Clibgit2 */ = {
+		B7995C78265D588C00F455D6 /* SwiftGit2 */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Clibgit2;
+			productName = SwiftGit2;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
