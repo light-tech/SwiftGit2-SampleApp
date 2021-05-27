@@ -5,7 +5,7 @@
 //
 
 import SwiftUI
-import Clibgit2
+import SwiftGit2
 
 struct ContentView: View {
 
@@ -14,7 +14,8 @@ struct ContentView: View {
     let remoteRepoLocation = "https://github.com/light-tech/BigMac.git"
 
     init() {
-        git_libgit2_init()
+        // git_libgit2_init()
+        Repository.initialize_libgit2()
     }
 
     var body: some View {
