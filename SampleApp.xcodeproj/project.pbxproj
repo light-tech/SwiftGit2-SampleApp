@@ -13,7 +13,7 @@
 		B716317F2600569A00E2B851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716317E2600569A00E2B851 /* Preview Assets.xcassets */; };
 		B74ACCD426561305003C6579 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ACCD3265612FC003C6579 /* libiconv.tbd */; };
 		B74ACCD6265613F2003C6579 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ACCD5265613E7003C6579 /* libz.tbd */; };
-		B7995C79265D588C00F455D6 /* SwiftGit2 in Frameworks */ = {isa = PBXBuildFile; productRef = B7995C78265D588C00F455D6 /* SwiftGit2 */; };
+		B75BCC10265F460200C07815 /* SwiftGit2 in Frameworks */ = {isa = PBXBuildFile; productRef = B75BCC0F265F460200C07815 /* SwiftGit2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,6 @@
 		B71E92372600582B00AF2F49 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
 		B74ACCD3265612FC003C6579 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
 		B74ACCD5265613E7003C6579 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
-		B7995C77265D579F00F455D6 /* SwiftGit2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftGit2; path = ./SwiftGit2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +35,7 @@
 			files = (
 				B74ACCD426561305003C6579 /* libiconv.tbd in Frameworks */,
 				B74ACCD6265613F2003C6579 /* libz.tbd in Frameworks */,
-				B7995C79265D588C00F455D6 /* SwiftGit2 in Frameworks */,
+				B75BCC10265F460200C07815 /* SwiftGit2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +45,6 @@
 		B716316B2600568100E2B851 = {
 			isa = PBXGroup;
 			children = (
-				B7995C77265D579F00F455D6 /* SwiftGit2 */,
 				B71631762600568100E2B851 /* SampleApp */,
 				B71631752600568100E2B851 /* Products */,
 				B71E923826005A9F00AF2F49 /* Frameworks */,
@@ -108,7 +106,7 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
-				B7995C78265D588C00F455D6 /* SwiftGit2 */,
+				B75BCC0F265F460200C07815 /* SwiftGit2 */,
 			);
 			productName = SampleApp;
 			productReference = B71631742600568100E2B851 /* SampleApp.app */;
@@ -138,6 +136,7 @@
 			);
 			mainGroup = B716316B2600568100E2B851;
 			packageReferences = (
+				B75BCC0E265F460200C07815 /* XCRemoteSwiftPackageReference "SwiftGit2" */,
 			);
 			productRefGroup = B71631752600568100E2B851 /* Products */;
 			projectDirPath = "";
@@ -368,9 +367,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		B75BCC0E265F460200C07815 /* XCRemoteSwiftPackageReference "SwiftGit2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/light-tech/SwiftGit2.git";
+			requirement = {
+				branch = spm;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		B7995C78265D588C00F455D6 /* SwiftGit2 */ = {
+		B75BCC0F265F460200C07815 /* SwiftGit2 */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = B75BCC0E265F460200C07815 /* XCRemoteSwiftPackageReference "SwiftGit2" */;
 			productName = SwiftGit2;
 		};
 /* End XCSwiftPackageProductDependency section */
