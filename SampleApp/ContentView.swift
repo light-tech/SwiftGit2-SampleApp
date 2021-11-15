@@ -7,10 +7,13 @@
 import SwiftUI
 import SwiftGit2
 
+let documentURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+
 struct ContentView: View {
 
     @State var message = ""
-    let localRepoLocation = "file:///Volumes/Data/Temp/BigMac"
+
+    let localRepoLocation = documentURL.appendingPathComponent("BigMac")
     let remoteRepoLocation = "https://github.com/light-tech/BigMac.git"
 
     init() {
@@ -29,10 +32,9 @@ struct ContentView: View {
     }
 
     func cloneGitRepo() {
-        let local: URL = URL(string: localRepoLocation)!
         let remote: URL = URL(string: remoteRepoLocation)!
 
-        let result = Repository.clone(from: remote, to: local)
+        let result = Repository.clone(from: remote, to: localRepoLocation)
         switch result {
         case let .success(repo):
             let latestCommit = repo
@@ -55,9 +57,7 @@ struct ContentView: View {
     }
 
     func testGitRepo() {
-        let URL: URL = URL(string: localRepoLocation)!
-
-        let result = Repository.at(URL)
+        let result = Repository.at(localRepoLocation)
         switch result {
         case let .success(repo):
             let latestCommit = repo
